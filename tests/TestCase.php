@@ -10,7 +10,8 @@ use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
 {
-    use RefreshDatabase, WithWorkbench;
+    use RefreshDatabase;
+    use WithWorkbench;
 
     protected $enablesPackageDiscoveries = true;
 
