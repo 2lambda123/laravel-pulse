@@ -38,7 +38,8 @@ class PulseServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/pulse.php', 'pulse'
+            __DIR__.'/../config/pulse.php',
+            'pulse'
         );
 
         $this->app->singleton(Pulse::class);

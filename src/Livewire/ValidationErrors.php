@@ -15,7 +15,8 @@ use Livewire\Attributes\Lazy;
 #[Lazy]
 class ValidationErrors extends Card
 {
-    use Concerns\HasPeriod, Concerns\RemembersQueries;
+    use Concerns\HasPeriod;
+    use Concerns\RemembersQueries;
 
     /**
      * Render the component.

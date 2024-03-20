@@ -17,7 +17,9 @@ use Symfony\Component\HttpFoundation\Response as BaseResponse;
  */
 class ValidationErrors
 {
-    use Concerns\Ignores, Concerns\LivewireRoutes, Concerns\Sampling;
+    use Concerns\Ignores;
+    use Concerns\LivewireRoutes;
+    use Concerns\Sampling;
 
     /**
      * The events to listen for.
