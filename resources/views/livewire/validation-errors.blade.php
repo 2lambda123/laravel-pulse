@@ -71,4 +71,3 @@
         @endif
     </x-pulse::scroll>
 </x-pulse::card>
-
